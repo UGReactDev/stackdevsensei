@@ -59,6 +59,7 @@ export const fetchToken = async () => {
   }
 };
 
+// ImageUpload
 export const uploadImage = async (imagePath: string) => {
   try {
     const response = await fetch(`${serverUrl}/api/upload`, {
@@ -71,6 +72,7 @@ export const uploadImage = async (imagePath: string) => {
   }
 };
 
+// CreateNewProject
 export const createNewProject = async (
   form: ProjectForm,
   creatorId: string,
