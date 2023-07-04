@@ -89,6 +89,7 @@ export const createNewProject = async (
   }
 };
 
+// FetchAllProjects
 export const fetchAllProjects = (
   category?: string | null,
   endcursor?: string | null
